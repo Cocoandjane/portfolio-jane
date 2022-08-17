@@ -201,8 +201,6 @@ li {
 @media(max-width: 768px) {
     .hamburger {
         display: block;
-        position: fixed;
-        left: 90%;
     }
 
     .hamburger.active .bar:nth-child(2) {
