@@ -201,6 +201,8 @@ li {
 @media(max-width: 768px) {
     .hamburger {
         display: block;
+        position: fixed;
+        right: 1em;
     }
 
     .hamburger.active .bar:nth-child(2) {
@@ -217,15 +219,13 @@ li {
 
     .nav__list {
         position: fixed;
-        color: var(--clr-dark);
         right: -100%;
         top: 70px;
-        bottom: 0;
         gap:0;
         flex-direction: column;
-        background-color: var(--clr-dark);
-        width: 170px;
-        text-align: center;
+        background-color: var(--clr-accent-one);
+        width: 100%;
+        text-align: 100%;
         transition: 0.3s;
     }
 
@@ -234,7 +234,7 @@ li {
     }
 
     .nav__list.active {
-        right: 0;
+        left: 0;
     }
 }
 
