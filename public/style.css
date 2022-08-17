@@ -202,7 +202,7 @@ li {
     .hamburger {
         display: block;
         position: fixed;
-        right: 1em;
+        left: 90%;
     }
 
     .hamburger.active .bar:nth-child(2) {
