@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script defer src="/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto+Slab:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          class="logo--img"
+          src="/images/JL_Logo_blue&orange._91d1d7&e27458 Medium.jpeg"
+          alt="logo"
+        />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="/" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="/#services" class="nav__link">My services</a>
+          </li>
+          <li class="nav__item">
+            <a href="/#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="/#work" class="nav__link">My work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Jane Liang </strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Aspiring Full-Stack Web Developer
+      </p>
+      <img
+        class="intro__img"
+        src="/images/me2.jpeg"
+        alt="a picture of Jane smiling"
+      />
+    </section>
+
+    <!-- show project -->
+
+    <section class="my-project">
+      <h2><%=project.name%></h2>
+      <a href="<%=project.url%>"><%=project.url%></a>
+      <%if(project.partner) {%>
+      <p>Partner: <%=project.partner%></p>
+      <%}%>
+      <div class="project-images">
+        <% for(let image of project.images) {%>
+        <img
+          class="single-project-image"
+          src="<%=image%>"
+          alt="An image of the app"
+        />
+        <%}%>
+      </div>
+      <p><%=project.description%></p>
+    </section>
+
+    <!-- contact me -->
+    <footer class="footer">
+      <div class="contact-me white-background">
+        <ul class="list">
+          <li>
+            <img class="contact-icon" src="/icons/email.svg" />
+            <a href="mailto:janeliangbc@gmail.com" class="contact email-link"
+              >janeliangbc@gmail.com</a
+            >
+          </li>
+
+          <li>
+            <img class="contact-icon" src="/icons/phone.svg" />
+            <p class="contact phone-number">7787085905</p>
+          </li>
+
+          <li>
+            <img class="contact-icon" src="/icons/linkedin.svg" />
+            <a
+              href="www.linkedin.com/in/janiejane"
+              class="contact linkedin-link"
+              >www.linkedin.com/in/janiejane</a
+            >
+          </li>
+
+          <li>
+            <img class="contact-icon" src="/icons/github.svg" />
+            <p class="contact github-name">Cocoandjane</p>
+          </li>
+        </ul>
+
+        <div class="buttons">
+          <button class="download download-resume">
+            <img
+              class="download-icon"
+              src="/icons/download.svg"
+              alt="downlaod icon"
+            />
+            Download my resume
+          </button>
+
+          <button class="download download-portfolio">
+            <img
+              class="download-icon"
+              src="/icons/download.svg"
+              alt="downlaod icon"
+            />
+            Download this portfolio as PDF
+          </button>
+        </div>
+        <img class="footer__img" src="/images/me-footer.jpeg" />
+      </div>
+    </footer>
+  </body>
+</html>
