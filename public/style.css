@@ -186,6 +186,9 @@ li {
 .hamburger {
     display: none;
     cursor: pointer;
+    position: fixed;
+    top: 70px;
+    z-index: 1000;
 }
 
 .bar {
@@ -222,7 +225,7 @@ li {
         gap:0;
         flex-direction: column;
         background-color: var(--clr-accent-one);
-        width: 100%;
+        width: 170px;
         text-align: center;
         transition: 0.3s;
     }
