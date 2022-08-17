@@ -22,7 +22,7 @@ class Database {
     {
       id: 3,
       name: "Picnic Event planing",
-      url:"",
+      url:"https://picnic-jane.herokuapp.com",
       images: ["https://i.imgur.com/clsb1Lg.png"],
       completionDate: "July-2022",
       description: "This app was build to make AJAX calls from front-end to back-end back and forth. In this app, you can see weather for the next seven days, you can see people attending event on different days, and you can vote yes or no for events.  ",
