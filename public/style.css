@@ -217,18 +217,18 @@ li {
 
     .nav__list {
         position: fixed;
-        right: -100%;
+        left: -100%;
         top: 70px;
         gap:0;
         flex-direction: column;
         background-color: var(--clr-accent-one);
         width: 100%;
-        text-align: 100%;
+        text-align: center;
         transition: 0.3s;
     }
 
     .nav__item {
-        margin: 10px 0;
+        margin: 16px 0;
     }
 
     .nav__list.active {
