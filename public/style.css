@@ -151,7 +151,6 @@ header {
 
 .nav {
   position: fixed;
-  width: 230px;
   background-image: linear-gradient(
     rgba(145, 209, 215, 95%),
     rgba(155, 88, 226, 60%)
@@ -160,6 +159,7 @@ header {
   top: 0;
   bottom: 0;
   right: 0;
+  left: 0;
   z-index: 100;
 
   transform: translateX(100%);
