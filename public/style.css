@@ -46,8 +46,8 @@ strong {
 }
 
 :focus {
-  outline: 3px solid var(--clr-accent-two);
-  outline-offset: 12px;
+  outline: 3px solid var(--clr-accent);
+  outline-offset: 3px;
 }
 
 /* buttons */
@@ -520,8 +520,8 @@ a.contact {
 
 /* project single page */
 
-.video{
-    margin: 1em auto;
+.video {
+  margin: 1em auto;
 }
 
 .single-project-image {
