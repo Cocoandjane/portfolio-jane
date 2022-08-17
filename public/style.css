@@ -521,8 +521,12 @@ a.contact {
 
 /* project single page */
 
+.video{
+    margin: 1em auto;
+}
+
 .single-project-image {
-  max-width: 300px;
+  max-height: 600px;
 }
 
 .my-project {

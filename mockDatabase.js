@@ -4,7 +4,8 @@ class Database {
       id: 1,
       name: "vanmarket_idsp",
       url:"https://vanmarket.herokuapp.com",
-      images: ["https://imgur.com/01oWXvB.jpg", "https://imgur.com/pVPp0Bv.jpg", "https://imgur.com/uCcBfcu.jpg", "https://imgur.com/01oWXvB.jpg", "https://imgur.com/o3s377M.jpg"],
+      images: ["https://imgur.com/01oWXvB.jpg"],
+      otherImg: ["https://imgur.com/pVPp0Bv.jpg", "https://imgur.com/uCcBfcu.jpg", "https://imgur.com/01oWXvB.jpg", "https://imgur.com/o3s377M.jpg"],
       completionDate: "June-2022",
       description: "This was my first interdisciplinary student projects (IDSP) project. It is an online-marketing app. In this app, you can browse people's listed products by swiping the cards and save the products to your wishlist, post your own products and edit or delete your posts, and create and edit your profile. With my partner Murad, We followed Agile Methodoloty buiding this app.", 
       partner:"Murad Qumizakis"

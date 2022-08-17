@@ -75,7 +75,18 @@
           alt="An image of the app"
         />
         <%}%>
+
+        <div class="video">
+        <%if(project.id === 1) {%>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sX5u8J6s8aI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <%}%>
+        <%if(project.id === 2) {%>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KCrLK2s0wq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <%}%>
+        </div>
       </div>
+
+      <div class="video"><%=project.video%></div>
       <p><%=project.description%></p>
     </section>
 
@@ -109,26 +120,6 @@
             <p class="contact github-name">Cocoandjane</p>
           </li>
         </ul>
-
-        <div class="buttons">
-          <button class="download download-resume">
-            <img
-              class="download-icon"
-              src="/icons/download.svg"
-              alt="downlaod icon"
-            />
-            Download my resume
-          </button>
-
-          <button class="download download-portfolio">
-            <img
-              class="download-icon"
-              src="/icons/download.svg"
-              alt="downlaod icon"
-            />
-            Download this portfolio as PDF
-          </button>
-        </div>
         <img class="footer__img" src="/images/me-footer.jpeg" />
       </div>
     </footer>
