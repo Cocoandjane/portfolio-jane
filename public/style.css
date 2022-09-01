@@ -202,6 +202,10 @@ li {
 }
 
 @media(max-width: 768px) {
+    *{
+      overflow-x: hidden;
+    }
+
     .hamburger {
         display: block;
     }
