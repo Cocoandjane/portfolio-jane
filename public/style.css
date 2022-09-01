@@ -147,10 +147,6 @@ h3 {
 
 header {
     background-color: var(--clr-accent-one);
-  /* background-image: linear-gradient(
-    rgba(145, 209, 215, 66%),
-    rgba(155, 88, 226, 66%)
-  );; */
 }
 
 .nav__link{
@@ -187,7 +183,7 @@ li {
     display: none;
     cursor: pointer;
     position: fixed;
-    top: 70px;
+    right: 1em;
     z-index: 1000;
 }
 
@@ -198,7 +194,7 @@ li {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: var(--clr-accent-two);
+    background-color: var(--clr-dark);
 }
 
 @media(max-width: 768px) {
@@ -224,7 +220,7 @@ li {
 
     .nav__list {
         position: fixed;
-        left: -100%;
+        right: -100%;
         top: 70px;
         gap:0;
         flex-direction: column;
@@ -239,7 +235,7 @@ li {
     }
 
     .nav__list.active {
-        left: 0;
+        right: 0;
     }
 }
 
