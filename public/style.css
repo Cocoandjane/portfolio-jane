@@ -278,6 +278,7 @@ li {
     z-index: 1;
   }
 
+
   .section__subtitle--intro {
     align-self: start;
     grid-column: -1/1;

@@ -155,9 +155,9 @@
       <div class="allCard">
      <% for (const project of allProjects) {%>
         <div class="card">
-        <a class="image-box" href="/project/<%=project.id%>">  
+        <a class="image-box" href="/project/<%=project.id%>/#project-detail">  
           <img class="project-image" src="<%= project.images[0]%>"> 
-          <span class="show-detail">See detail</span>
+          <span class="show-detail"> see detail</span>
         </a>
         <a class="project-name" href="<%=project.url%>">  
           <%= project.name%> 
