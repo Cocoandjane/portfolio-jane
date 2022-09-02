@@ -38,10 +38,4 @@ app.get('/project/:id', (req, res) => {
 })
 
 
-
-
-
-
-
-
 module.exports = app;

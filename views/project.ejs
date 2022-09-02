@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/style.css" />
+    <title>Jane Liang</title>
+    <link rel="icon" type="image/x-ion" href="/images/logo-square.jpg">
+    <link rel="stylesheet" href="/style.css">
     <script defer src="/index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -69,8 +70,7 @@
     <!-- show project -->
 
     <section class="my-project">
-      <h2><%=project.name%></h2>
-      <a href="<%=project.url%>"><%=project.url%></a>
+      <a class="project-title" href="<%=project.url%>" ><h2><%=project.name%></h2></a>
       <%if(project.partner) {%>
       <p>Partner: <%=project.partner%></p>
       <%}%>

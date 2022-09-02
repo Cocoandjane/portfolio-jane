@@ -2,7 +2,7 @@ class Database {
   projects = [
     {
       id: 1,
-      name: "vanmarket_idsp",
+      name: "VanMarket_idsp",
       url:"https://vanmarket.herokuapp.com",
       images: ["https://imgur.com/01oWXvB.jpg"],
       otherImg: ["https://imgur.com/pVPp0Bv.jpg", "https://imgur.com/uCcBfcu.jpg", "https://imgur.com/01oWXvB.jpg", "https://imgur.com/o3s377M.jpg"],
@@ -13,7 +13,7 @@ class Database {
 
     {
       id: 2,
-      name: "moodjorts",
+      name: "MoodJorts",
       url:"https://moodjorts-jane.herokuapp.com",
       images:["https://i.imgur.com/rq6DbD8.png"],
       completionDate: "July-2022",

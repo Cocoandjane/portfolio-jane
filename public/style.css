@@ -522,6 +522,16 @@ a.contact {
   margin: 1em auto;
 }
 
+a.project-title{
+  text-decoration: none;
+  color: var(--clr-dark);
+  transition: 0.3s;
+}
+
+a.project-title:hover{
+  color: var(--clr-accent-two);
+}
+
 .single-project-image {
   max-height: 600px;
 }
@@ -545,6 +555,7 @@ a.contact {
   display: inline-block;
   position: relative;
 }
+
 .image-box .show-detail {
   visibility: hidden;
   font-size: smaller;
@@ -557,7 +568,6 @@ a.contact {
   top: 50%;
   left: 10%;
   transform: (-50%, -10%);
-
   z-index: 1;
 }
 
@@ -568,9 +578,14 @@ a.contact {
 .project-name {
   position: relative;
   display: inline-block;
+  transition: 0.7s ease;
 }
 
-.project-name .hover-show {
+.project-name:hover {
+  color: var(--clr-accent-two);
+}
+
+/* .project-name .hover-show {
   visibility: hidden;
   font-size: smaller;
   background-color: var(--clr-accent-two);
@@ -580,8 +595,8 @@ a.contact {
   padding: 5px 2px;
   position: absolute;
   z-index: 1;
-}
+} */
 
-.project-name:hover .hover-show {
+/* .project-name:hover .hover-show {
   visibility: visible;
-}
+} */
